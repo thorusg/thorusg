@@ -1,7 +1,7 @@
 const DATA_SOURCE =
   "https://raw.githubusercontent.com/Kengxxiao/ArknightsGameData/master/";
 const DATA_SOURCE_YOSTAR =
-  "https://raw.githubusercontent.com/thorusg/thorusg/main/";
+  "https://raw.githubusercontent.com/thorusg/thorusg/main/ts/";
 // const DATA_SOURCE =
 //   "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/json/gamedata/";
 // const CC_DATA_SOURCE =

@@ -1,29 +1,29 @@
 [HEADER(is_tutorial=true, is_skippable=true, is_autoable=true, fit_mode="BLACK_MASK", deny_auto_switch_scene=true)] 初始引导
 [PlayMusic(key="$babel_loop", volume=0.8, delay=0.2)]
-[name=""]   Ох, это Вы.
+[name=""]   Ох, это ты.
 [Dialog]
 [Image(image="bg_0_babel", fadetime=1, block=true)]
 [ImageTween(image="bg_0_babel", tiled=true, xScaleTo=1.05, yScaleTo=1.05, duration=3, block=false)]
 [ImageTween(image="bg_0_babel", tiled=true, xScaleTo=1.5, yScaleTo=1.5, duration=75, block=false)]
 [name=""]   Прошло немало времени с тех пор, как мы виделись в последний раз.
-[name=""]   Все это время... Вы балансировали на краю пропасти.
+[name=""]   Все это время... Ты балансировал на краю пропасти.
 [Dialog]
 [Delay(time=1.3)]
-[name=""]   Возможно, Вы забыли кем являетесь, но достаточно просто вспомнить свое имя.
+[name=""]   Возможно, ты позабыл, кто ты есть, но достаточно просто вспомнить свое имя.
 [Dialog]
-[name=""]   ...Время пришло. Вам не стоит здесь задерживаься надолго.
-[name=""]   В конце концов, Вы еще не мой гость и не должны находиться здесь.
-[name=""]   Она по прежнему нуждается в Вас.
+[name=""]   ...Время пришло. Тебе не стоит задерживаться здесь надолго.
+[name=""]   В конце концов, ты еще не мой гость и не должен находиться здесь.
+[name=""]   Она по прежнему нуждается в тебе.
 [Dialog]
 [Delay(time=1)]
 [name=""]   23-е Декабря.
-[name=""]   Вы может не помниье, что означает для Вас эта дата.
-[name=""]   И этот факт может поставить вас в опасное положение.
+[name=""]   Может ты и не помнишь, что означает эта дата.
+[name=""]   И этот факт может поставить тебя в опасное положение.
 [name=""]   ......
 [Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
 [Image]
 [name=""]   Нет...
-[name=""]   Вы должны попытаться вспомнить.
+[name=""]   Ты должен попытаться вспомнить.
 [Dialog]
 [PlayMusic(intro="$ekg_loop", key="$ekg_loop", volume=0.8, delay=0)]
 [Blocker(a=1, r=255, g=255, b=255, afrom=0, rfrom=0, gfrom=0, bfrom=0, fadetime=0.1, block=true)]

@@ -6,69 +6,69 @@
 [Dialog]
 [Delay(time=1)]
 [Character(name="char_130_doberm_ex")]
-[name="Dobermann"]  How could this be...
-[name="Dobermann"]  What in the world... is going on here?
+[name="Доберман"]  Как это возможно...
+[name="Доберман"]  Что, черт возьми... здесь происходит?
 [Blocker(a=1, r=0,g=0, b=0, fadetime=0.6, block=true)]
 [Character(fadetime=0)]
 [Image(image="avg_2_2",x=0, y=0, xScale=1, yScale=1, fadetime=0)]
 [Blocker(a=0, fadetime=0.6, block=false)]
 [ImageTween(xFrom=0, yFrom=0, xTo=0, yTo=-20, xScaleFrom=1, yScaleFrom=1, xScaleTo=1.1, yScaleTo=1.1, duration=15, block=false)]
-[name="Reunion Member"]  Search all these houses! I want every single room turned inside out!
-[name="Female"]  Let go of me...! No! You can't...
-[name="Reunion Member"]  Trying to resist? Too late, you filthy Chernos!
-[name="Male"]  Just run! Don't worry about me... Save... our child...
-[name="Child"]  Mama... Mama...!
-[name="Ursus Guard"]  Forget about the civilians! Hold the line first! There are too many masked goons coming!
-[name="Reunion Member"]  Don't give the cops any time to rest! Keep attacking!
-[name="Ursus Guard"]  Where are our reinforcements?! We're going to get overrun...
-[name="Reunion Member"]  Attack, attack!!
+[name="Член Реюниона"]  Обыщите все эти дома! Я хочу, чтобы каждая комната была вывернуты наизнанку!
+[name="Женщина"]  Отпустите меня...! Нет! Вы не можете...
+[name="Член Реюниона"]  Пытаешься сопротивляться? Слишком поздно, грязная Чернобожка!
+[name="Мужчина"]  Просто беги! Не беспокойся обо мне... Спаси... нашу малышку...
+[name="Ребёное"]  Мама... Мама...!
+[name="Страж Урсуса"]  Забудьте о мирных жителях! В первую очередь держите строй! Головорезы в масках на подходе!
+[name="Член Реюниона"]  Не давайте легавым времени на отдых! Продолжайте теснить их!
+[name="Страж Урсуса"]  Где подкрепление?! Нас же сейчас всех перебьют...
+[name="Член Реюниона"]  Вперед, вперед!
 [Blocker(a=1, r=0,g=0, b=0, fadetime=0.6, block=true)]
 [Image]
 [Blocker(a=0, fadetime=1, block=true)]
 [Dialog]
 [Character(name="char_002_amiya_1#5")]
-[name="Amiya"]  What's going on...? ! Why... Why is Reunion doing this...?
+[name="Амия"]  Что происходит...? ! Почему... Почему Реюнион делает это...?
 [Character(name="char_130_doberm_ex")]
-[name="Dobermann"]  After all these years, the wolves in sheep's clothing finally bare their fangs.
+[name="Доберман"]  Спустя столько лет волки в овечьей шкуре вс' же решили обнажить клыки.
 [Character(name="char_016_medic")]
-[name="Medic"]  The Infected... they, they're attacking the Ursus troops!
+[name="Медик"]  Инфицированные... они, они атакуют войска Урсуса!
 [Character(name="char_013_riop")]
-[name="Guard"]  But why?! Challenging the Ursus government like this is basically suicide!
+[name="Страж"]  Но почему?! Бросать вызов правительству Урсуса - полное самоубийство!
 [Character(name="char_130_doberm_ex")]
-[name="Dobermann"]  No, look at how fierce this attack is. This must have been a planned operation.
-[name="Dobermann"]  The place we rescued Doctor from was supposed to be top secret... but they somehow still managed to infiltrate it.
-[name="Dobermann"]  It's possible that Reunion's attack has already spread through Chernobog in its entirety.
+[name="Доберман"]  Нет, взгляните, насколько жестким было это нападение. Скорее всего, это была спланированная операция.
+[name="Доберман"]  Место, откуда мы вытащили Доктора, должно было быть совершенно секретным... но им каким-то образом все же удалось туда проникнуть.
+[name="Доберман"]  Возможно, вторжение Реюниона уже распространилось по всему Чернобогу.
 [Character(name="char_013_riop")]
-[name="Guard"]  No... How, how can that be...
+[name="Страж"]  Нет... Как, как это может быть...
 [Character(name="char_002_amiya_1#7")]
-[name="Amiya"]  Shhhh!
+[name="Амия"]  Тшшш!
 [StopMusic(fadetime=0.8)]
 [Character]
 [Blocker(a=1, r=0,g=0, b=0, fadetime=0.6, block=true)]
 [Dialog]
 [Blocker(a=0, fadetime=0.6, block=true)]
-[name="Reunion Member A"]  Have you found any of those fleeing Chernos yet?
-[name="Reunion Member B"]  I'm still looking!
-[name="Reunion Member A"]  Good, don't let a single one get away!
-[name="Reunion Member A"]  Those cold-blooded beasts... I'll make them pay for what they did to my family!
+[name="Член Реюниона А"]  Уже нашел кого-то из тех сбежавших Чернобожцев?
+[name="Член Реюниона В"]  Всё еще ищу!
+[name="Член Реюниона А"]  Хорошо, не позволяй никому из них ускользнуть!
+[name="Член Реюниона А"]  Эти хладнокровные твари... Я заставлю их заплатить за то, что они сделали с моей семьей!
 [Character]
 [Blocker(a=1, r=0,g=0, b=0, fadetime=0.6, block=true)]
 [Dialog]
 [Blocker(a=0, fadetime=0.6, block=true)]
 [Character(name="char_016_medic")]
-[name="Medic"]  (*cough*)
+[name="Медик"]  (*кашель*)
 [Dialog]
 [Character]
-[name="Reunion Member A"]  What was that?
-[name="Reunion Member B"]  Over there!
+[name="Член Реюниона А"]  Что это было?
+[name="Член Реюниона В"]  Там!
 [PlayMusic(intro="$calamity_intro", key="$calamity_loop", volume=1, crossfade=1.5)]
 [Character(name="char_016_medic")]
-[name="Medic"]  (Mmfh!)
-[name="Medic"]  (They... they found us...)
+[name="Медик"]  (Хмпф!)
+[name="Медик"]  (Они... нашли нас...)
 [Character(name="char_130_doberm_ex")]
-[name="Dobermann"]  (Shush!)
+[name="Доберман"]  (Цыть!)
 [Character(name="char_016_medic")]
-[name="Medic"]  (Mmf...!)
+[name="Медик"]  (Ммф...!)
 [Character]
 [Blocker(a=1, r=0,g=0, b=0, fadetime=0.6, block=true)]
 [Dialog]
@@ -81,49 +81,49 @@
 [Blocker(a=1, r=0,g=0, b=0, fadetime=0.6, block=true)]
 [Background]
 [Blocker(a=0, fadetime=0.6, block=true)]
-[name="Female"]  ...Ugh...
+[name="Женщина"]  ...Угх...
 [Blocker(a=1, r=0,g=0, b=0, fadetime=0.6, block=true)]
 [Background(image="bg_cher_1",x=0, y=20, xScale=1.1, yScale=1.1, fadetime=1)]
 [Blocker(a=0, fadetime=0.6, block=true)]
-[name="Reunion Member A"]  Over here! I found 'em!
-[name="Female"]  ...Nooooo!!!!
-[name="Female"]  Aaah! No, don't...
-[name="Reunion Member B"]  ...!
-[name="Reunion Member B"]  Hiding in an alley?
-[name="Reunion Member B"]  Get out.
-[name="Female"]  Aaaaahh...!
-[name="Reunion Member B"]  Did you really think we wouldn't find you there...?
-[name="Female"]  I'm... I'm sorry! I'm so sorry!! Please, at least spare my child!
-[name="Reunion Member B"]  ...
+[name="Член Реюниона А"]  Over here! I found 'em!
+[name="Женщина"]  ...Неееет!!!!
+[name="Женщина"]  Ах! Нет, не нужно...
+[name="Член Реюниона В"]  ...!
+[name="Член Реюниона В"]  Спрятались в переулке?
+[name="Член Реюниона В"]  Вылезайте.
+[name="Женщина"]  Аах...!
+[name="Член Реюниона В"]  Неужели вы думали, что здесь мы вас не отыщем...?
+[name="Женщина"]  Я... Мне очень жаль! Мне так жаль!!! Пожалуйста, пощадите хотя бы моего ребенка!
+[name="Член Реюниона В"]  ...
 [Blocker(a=1, r=0,g=0, b=0, fadetime=0.6, block=true)]
 [Dialog]
 [Character]
 [Blocker(a=0, fadetime=0.6, block=true)]
 [Character(name="char_002_amiya_1#7")]
-[name="Amiya"]  ...We need to stop this, now.
+[name="Амия"]  ...Мы должны вмешаться, немедленно.
 [Character(name="char_130_doberm_ex")]
-[name="Dobermann"]  Amiya...
+[name="Доберман"]  Амия...
 [Character(name="char_002_amiya_1#7",name2="char_130_doberm_ex",focus=1)]
-[name="Amiya"]  I'm aware of the risk, Instructor Dobermann.
-[name="Amiya"]  It's just that... we don't have the luxury of sitting around waiting for Reunion to disband.
-[name="Amiya"]  Additionally, nobody knows how long this situation will last...
-[name="Amiya"]  Therefore, the best course of action would be to take out the enemy and then get moving. Wouldn't you agree?
+[name="Амия"]  Я осознаю риски, инструктор Доберман.
+[name="Амия"]  Просто... у нас нет привилегии сидеть и ждать, пока Реюнион разойдётся.
+[name="Амия"]  Кроме того, никто не знает, как долго продлится эта ситуация...
+[name="Амия"]  Поэтому лучшим вариантом действий будет уничтожить врага, а затем двигаться дальше. Вы согласны?
 [Character(name="char_002_amiya_1#7",name2="char_130_doberm_ex",focus=2)]
-[name="Dobermann"]  ...
-[name="Dobermann"]  Understood. I'll follow your command.
+[name="Доберман"]  ...
+[name="Доберман"]  Поняла. Следую твоим приказам.
 [Character(name="char_130_doberm_ex")]
-[name="Dobermann"]  All squads, listen up.
-[name="Dobermann"]  We have the element of surprise - these Reunion members don't know that we're here yet.
-[name="Dobermann"]  Remember, be decisive! Take them out, cleanly and swiftly.
-[name="Dobermann"]  Dr. {@nickname}, gather your team. It's time for you to prove yourself.
-[name="Dobermann"]  We have no more time to second-guess ourselves.
-[Decision(options="You should have told me sooner.;...;A simple matter. I'll handle this.", values="1;2;3")]
+[name="Доберман"]  Всем отрядам, внимание!
+[name="Доберман"]  У нас есть преимущество неожиданности - эти члены Реюниона еще не знают, что мы здесь.
+[name="Доберман"]  Помните, действовать нужно решительно! Уберите их, чисто и быстро.
+[name="Доберман"]  Д-р. {@nickname}, готовьте свой отряд. Пришло время проявить себя.
+[name="Доберман"]  У нас больше нет времени сомневаться в своих силах.
+[Decision(options="Ты должна была сказать мне раньше..;...;Пара пустяков. Я займусь этим.", values="1;2;3")]
 [Predicate(references="1;2;3")]
 [Character(name="char_130_doberm_ex")]
-[name="Dobermann"]  Hah.
-[name="Dobermann"]  Amiya, I'm counting on you.
+[name="Доберман"]  Хах.
+[name="Доберман"]  Амия, рассчитываю на тебя.
 [Character(name="char_002_amiya_1#7")]
-[name="Amiya"]  Understood.
+[name="Амия"]  Поняла.
 [Blocker(a=1, initr=2, r=0, g=0, b=0, fadetime=0.2, block=true)]
 [Character(fadetime=0)]
 [Background(fadetime=0)]
@@ -131,9 +131,9 @@
 [ImageTween(xFrom=0, yFrom=-20, xTo=0, yTo=0, xScaleFrom=1.1, yScaleFrom=1.1, xScaleTo=1, yScaleTo=1, duration=4, block=false)]
 [Blocker(a=0, fadetime=0.5, block=true)]
 [Delay(time=0.6)]
-[name="Amiya"]   'Silent we shall be, should conflict be avoidable--
-[name="Amiya"]   --but fight tooth and nail, should it be necessary!'
-[name="Amiya"]  Rhodes Island's creed... has always been the same!
+[name="Амия"]   'Мы в тишине, коль можно мир сберечь, но станем яростны--
+[name="Амия"]   --как буря, и беспечны, когда придётся правду за мечом облечь!'
+[name="Амия"]  Кредо Родос Айленда... всегда было неизменным!
 [Delay(time=0.6)]
 [Dialog]
 [Image(image="avg_1_3",x=0, y=0, xScale=1, yScale=1, fadetime=1)]

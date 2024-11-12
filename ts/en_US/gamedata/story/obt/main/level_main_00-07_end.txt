@@ -5,38 +5,38 @@
 [PlaySound(key="$d_gen_soldiersrun",volume=0.5)]
 [Delay(time=1)]
 [Character(name="char_130_doberm_ex")]
-[name="Dobermann"]  Based on our planned route, we should be approaching the central town of South Chernobog.
-[name="Dobermann"]  We'll arrive at the rendezvous point after crossing this park. Assuming no contingencies, Nearl and Team E4 should be waiting for us there.
+[name="Доберман"]  Судя по намеченному маршруту, мы должны приближаться к центральному городу Южного Чернобога.
+[name="Доберман"]  Мы прибудем на точку сбора после того, как пересечем этот парк. Если не возникнет непредвиденных обстоятельств, Нирл и команда Е4 будут ждать нас там.
 [Character(name="char_013_riop",name2="char_130_doberm_ex",focus=1)]
-[name="Guard"]   But...
-[name="Guard"]   If Nearl was attacked... What would we do then?
-[name="Guard"]   What if they wanted to alert us, but couldn't due to communications being jammed...
-[name="Guard"]   How should we deal with that?
+[name="Страж"]   Но...
+[name="Страж"]   Если на Нирл напали... Что бы тогда будем делать?
+[name="Страж"]   А что, если они хотели предупредить нас, но не смогли из-за того, что связь была заглушена...
+[name="Страж"]   Как нам с этим справиться?
 [Character(name="char_013_riop",name2="char_130_doberm_ex",focus=2)]
-[name="Dobermann"]  ...
+[name="Доберман"]  ...
 [Character(name="char_002_amiya_1#7")]
-[name="Amiya"]   We will go assess the situation.
+[name="Амия"]   Мы отправимся оценить ситуацию.
 [character(name="char_013_riop")]
-[name="Guard"]   ...Oh...
+[name="Страж"]   ...Ох...
 [Character(name="char_014_riope",name2="char_013_riop",focus=1)]
-[name="Ace"]   Don't start speculating before seeing things with your own eyes.
-[name="Ace"]   There's no point of letting paranoia get the better of you.
+[name="Эйс"]   Не начинай строить догадки, пока не увидишь все своими глазами.
+[name="Эйс"]   Не стоит позволять паранойе брать над вами верх.
 [Character(name="char_014_riope",name2="char_013_riop",focus=2)]
-[name="Guard"]   I, I see...
+[name="Страж"]   Я, я понял...
 [Character(name="char_130_doberm_ex")]
-[name="Dobermann"]  Losing our communications has caused anxiety to spread through the ranks much faster than I imagined...
-[name="Dobermann"]  Especially with this looming Catastrophe.
-[name="Dobermann"]  We have to pick up our pace.
+[name="Доберман"]  Потеря связи привела к тому, что беспокойство распространилось по рядам гораздо быстрее, чем я предполагала...
+[name="Доберман"]  Особенно с учетом надвигающейся Катастрофы.
+[name="Доберман"]  Мы должны поднять темп.
 [Dialog]
 [Blocker(a=0.3, r=0.95, g=0.95, b=0.95, fadetime=4, block=true)]
 [Character(name="char_002_amiya_1#5")]
-[name="Amiya"]    ...
-[name="Amiya"]    Ugh... What's with this haze...?
-[name="Amiya"]   Could it be--
+[name="Амия"]    ...
+[name="Амия"]    Уф... Что это за дымка...?
+[name="Амия"]   Может быть...
 [Character(name="char_002_amiya_1#7")]
-[name="Amiya"]   Watch out! !
+[name="Амия"]   Осторожно! !
 [Character(name="char_1502_crowns")]
-[name="???"]  Kill them.
+[name="???"]  Убейте их.
 [Dialog]
 [Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.02, block=true)]
 [PlaySound(key="$e_atk_arrow_h")]
@@ -48,9 +48,9 @@
 [CameraShake(duration=0.6, xstrength=5, ystrength=8, vibrato=30, randomness=90, block=true)]
 [PlayMusic(intro="$calamity_intro", key="$calamity_loop", volume=1, crossfade=1.5)]
 [Character(name="char_130_doberm_ex")]
-[name="Dobermann"]  Incoming enemy fire! !
+[name="Доберман"]  Incoming enemy fire! !
 [Character(name="char_002_amiya_1#7")]
-[name="Amiya"]   It's a trap...!
+[name="Амия"]   Это ловушка...!
 [Character]
 [Blocker(a=1, r=0,g=0, b=0, fadetime=0.3, block=true)]
 [Dialog]
@@ -58,48 +58,48 @@
 [Character(name="char_1002_nsabr_2")]
 [name="Reunion Member"]   --! !
 [character(name="char_013_riop")]
-[name="Guard"]   This is bad! Reunion forces have showed up behind us...!
+[name="Страж"]   Это плохо! Силы Реюниона показались позади нас...!
 [Character(name="char_002_amiya_1#7")]
-[name="Amiya"]   Where's our scout?!
+[name="Амия"]   Где наши разведчики?!
 [character(name="char_013_riop")]
-[name="Guard"]   They got separated from us!
+[name="Страж"]   Они отделились от нас!
 [Character]
 [Blocker(a=1, r=0,g=0, b=0, fadetime=0.3, block=true)]
 [Dialog]
 [Blocker(a=0, fadetime=0.3, block=true)]
 [Character(name="char_1502_crowns")]
-[name="???"]  Rhodes Island...
-[name="???"]  I've caught you.
+[name="???"]  Родос Айленд...
+[name="???"]  Я поймала вас.
 [Character(name="char_1002_nsabr_2")]
-[name="Reunion Member"]   ...!
-[name="Reunion Member"]   Kill them all! !
+[name="Член Реюниона"]   ...!
+[name="Член Реюниона"]   Убейте их всех! !
 [Character(name="char_1502_crowns")]
-[name="???"]  This time, I'll grind your bones to dust!
+[name="???"]  На этот раз я сотру ваши кости в пыль!
 [Character]
 [Blocker(a=1, r=0,g=0, b=0, fadetime=0.3, block=true)]
 [Dialog]
 [Blocker(a=0, fadetime=0.3, block=true)]
 [Character(name="char_002_amiya_1#7")]
-[name="Amiya"]   Dobermann!
+[name="Амия"]   Доберман!
 [Character(name="char_130_doberm_ex")]
-[name="Dobermann"]  Snipers, stop their advance!
-[name="Dobermann"]  Defenders, hold the line. Get ready to push forward!
-[name="Dobermann"]  Ace, prepare to--
+[name="Доберман"]  Снайперы, остановите их продвижение!
+[name="Доберман"]  Защитники, держите строй. Приготовьтесь к наступлению!
+[name="Доберман"]  Эйс, приготовься к...
 [Character(fadetime=0)]
 [PlaySound(key="$d_gen_walk_n")]
 [Character(name="char_1507_Mephisto_1#6",fadetime=2)]
 [stopmusic(fadetime=2)]
-[name="???"]  Time out, time out--
+[name="???"]  Тайм-аут, тайм-аут...
 [Character(name="char_002_amiya_1#7")]
-[name="Amiya"]   ? !
+[name="Амия"]   ? !
 [Character(name="char_1507_Mephisto_1#6")]
-[name="???"]  I only just finished purging the Southeast Fortress, but I rushed over here as soon as I heard the news.
-[name="???"]  These are my hunting grounds, Crownslayer.
+[name="???"]  Я только что закончил зачистку Юго-Восточной крепости, но поспешил сюда, как только услышал новости.
+[name="???"]  Это мои охотничьи угодья, Краунслэйер.
 [Character(name="char_1502_crowns")]
-[name="Crownslayer"]  ...
-[name="Crownslayer"] What'd you come here for?
+[name="Краунслэйер"]  ...
+[name="Краунслэйер"] Зачем ты сюда заявился?
 [Character(name="char_1507_Mephisto_1#6")]
-[name="???"]  Isn't it about time you handed them over to me?
+[name="???"]  Не пора ли тебе передать их мне?
 [Delay(time=0.3)]
 [Dialog]
 [Blocker(block=true)]

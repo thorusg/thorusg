@@ -7,147 +7,147 @@
 [Blocker(a=1, r=255, g=255, b=255, afrom=0, rfrom=0, gfrom=0, bfrom=0, fadetime=0.1, block=true)]
 [PlaySound(key="$d_sp_ballista")]
 [Blocker(a=0, fadetime=1.5, block=true)]
-[name="Reunion Member"]  Ugh...
-[name="Reunion Member"]  You bunch... aren't from Ursus...
+[name="Член Реюниона"]  Угх...
+[name="Член Реюниона"]  Вы... Вы не из Урсуса...
 [Character(fadetime=0.7)]
 [Dialog]
 [Delay(time=0.7)]
 [Character(name="char_013_riop")]
-[name="Guard"]   *gasp* *gasp*...
+[name="Страж"]   *вздох* *вздох*...
 [Character(name="char_130_doberm_ex")]
-[name="Dobermann"]  Looks like they didn't have time to notify the others.
-[name="Dobermann"]  ...Well done, Dr. {@nickname}.
-[name="Dobermann"]  I really should review your capabilities more objectively.
+[name="Доберман"]  Похоже, они не успели оповестить остальных.
+[name="Доберман"]  ...Хорошо сработано, Д-р. {@nickname}.
+[name="Доберман"]  Мне стоит более объективно оценивать Ваши навыки.
 [Character(name="char_016_medic")]
-[name="Medic"]  Huh? Amiya... she's heading over to them...
+[name="Медик"]  А? Амия... она пошла к ним...
 [Character]
 [Blocker(a=1, r=0,g=0, b=0, fadetime=0.6, block=true)]
 [Dialog]
 [Blocker(a=0, fadetime=0.6, block=true)]
 [Character(name="char_002_amiya_1#2")]
-[name="Amiya"]   Are you okay?
+[name="Амия"]   Вы целы?
 [Character(name="char_002_amiya_1#2",focus=-1)]
-[name="Female"]   Huh? Oh, thank you...
+[name="Женщина"]   А? О, спасибо...
 [Character(name="char_002_amiya_1#2")]
-[name="Amiya"]   No problem. It's our...
+[name="Амия"]   Не стоит. Это наш...
 [Character(name="char_002_amiya_1#2",focus=-1)]
-[name="Female"]   You... You're also an Infected?
-[name="Female"]   What do you want?! Don't hurt my children... I'm begging you, please don't hurt us...
+[name="Женщина"]   Ты... Ты тоже Инфицированная?
+[name="Женщина"]   Чего ты хочешь?! Не трогай моего ребенка... Я умоляю тебя, пожалуйста, не причиняй нам вреда...
 [Character(name="char_002_amiya_1#4")]
-[name="Amiya"]   ...
+[name="Амия"]   ...
 [Character(name="char_002_amiya_1")]
-[name="Amiya"]   Find a safe place to hide.
+[name="Амия"]   Найдите безопасное место, где можно спрятаться.
 [Character(name="char_002_amiya_1",focus=-1)]
-[name="Female"]   *Crying* ... Please have mercy... Let us go...
+[name="Женщина"]   *плачет* ... Пожалуйста, пощадите... Отпустите нас...
 [Character]
 [Blocker(a=1, r=0,g=0, b=0, fadetime=0.6, block=true)]
 [Dialog]
 [Blocker(a=0, fadetime=0.6, block=true)]
 [Character(name="char_016_medic")]
-[name="Medic"]  ...
+[name="Медик"]  ...
 [Character(name="char_002_amiya_1#2")]
-[name="Amiya"]   Has everyone gotten enough rest?
+[name="Амия"]   Все ли достаточно отдохнули?
 [Character(name="char_016_medic")]
-[name="Medic"]  Ah, I'm fine...
-[Decision(options="Why is she afraid of you?", values="1")]
+[name="Медик"]  А, я в порядке...
+[Decision(options="Почему она испугалась тебя?", values="1")]
 [Predicate(references="1")]
 [Character(name="char_002_amiya_1#4")]
-[name="Amiya"]   ...
-[name="Amiya"]   Dr. {@nickname}...
-[name="Amiya"]   You've also asked a similar question before.
+[name="Амия"]   ...
+[name="Амия"]   Д-р. {@nickname}...
+[name="Амия"]   Вы уже задавали похожий вопрос.
 [Decision(options="......", values="1")]
 [Predicate(references="1")]
 [Character(name="char_002_amiya_1#4")]
-[name="Amiya"]   Because I... am an Infected.
-[name="Amiya"]   Dobermann and I, and most of the members of Rhodes Island, are as well.
-[name="Amiya"]   Even those Reunion members who we just fought...
-[name="Amiya"]   We've contracted a terrible illness. Something that terrifies most people...
-[name="Amiya"]   'Oripathy.'
+[name="Амия"]   Потому что я... Инфицирована.
+[name="Амия"]   Мы с Доберман, да и большинство членов "Родос Айленд" тоже.
+[name="Амия"]   Даже те участники Реюниона, с которыми мы только что сражались....
+[name="Амия"]   Мы больны страшной болезнью. Той, что приводит в ужас большинство людей...
+[name="Амия"]   'Орипатия.'
 [Character(name="char_130_doberm_ex")]
-[name="Dobermann"]  Those who have contracted Oripathy are called the 'Infected.'
+[name="Доберман"]  Тех, кто заразился орипатией, называют "Инфицированными".
 [Character(name="char_002_amiya_1#4")]
-[name="Amiya"]   Dobermann...
+[name="Амия"]   Доберман...
 [Character(name="char_130_doberm_ex")]
-[name="Dobermann"]  Ursus has always treated the Infected harshly.
-[name="Dobermann"]  I mean, who doesn't? Ursus just happens to be particularly cold-blooded about it.
-[name="Dobermann"]  Civilians are taught to fear the Infected through propaganda. Nobody even bats an eyelid when the Infected are hunted down, and some even cheer for it.
-[name="Dobermann"]  That's why Reunion chose this place...
+[name="Доберман"]  Урсус всегда сурово относился к ним.
+[name="Доберман"]  В смысле, как и большинство стран. Просто Урсус оказался особенно хладнокровным в этом вопросе.
+[name="Доберман"]  Гражданское население приучают бояться Инфицированных с помощью пропаганды. Никто и глазом не моргнет, когда на них начинают охотиться, а некоторые даже поддерживают это.
+[name="Доберман"]  Именно поэтому Реюнион выбрал это место...
 [Character(name="char_002_amiya_1#4")]
-[name="Amiya"]   However... this time, it's not just a simple protest anymore.
+[name="Амия"]   Однако... на этот раз это уже не обычный протест.
 [Character(name="char_130_doberm_ex")]
-[name="Dobermann"]  They've begun to resort to large-scale violence.
-[name="Dobermann"]  When Ursus puts an end to the rioting, the Infected in Chernobog will only face more cruelty.
-[name="Dobermann"]  ...In contrast, with you here, Dr. {@nickname}, perhaps Rhodes Island's situation will improve.
-[Decision(options="...Is this also related to me?;...;I see, I must be pretty important.", values="1;2;3")]
+[name="Доберман"]  Они начали прибегать к широкомасштабному насилию.
+[name="Доберман"]  Когда Урсус положит конец беспорядкам, Инфицированные в Чернобоге столкнутся с еще большей жестокостью.
+[name="Доберман"]  ...Напротив, с вашим появлением, доктор {@nickname}, возможно, положение Родос Айленда улучшится.
+[Decision(options="....Это тоже меня касается?;...;Понятно. Я, должно быть, важная персона.", values="1;2;3")]
 [Predicate(references="1;2;3")]
 [Character(name="char_130_doberm_ex")]
-[name="Dobermann"]  Both Kal'tsit and Amiya have mentioned that you are a cutting-edge Oripathy researcher.
-[name="Dobermann"]  ...But with your memory loss, I doubt whether you'll be of any use again.
+[name="Доберман"]  Каль'цит и Амия упоминали, что Вы являетесь передовым исследователем Орипатии.
+[name="Доберман"]  ...Но с Вашей потерей памяти я сомневаюсь, что Вы снова окажетесь полезны.
 [Character(name="char_002_amiya_1")]
-[name="Amiya"]   Ugh... Instructor, that's way too harsh!
+[name="Амия"]   Уф... Инструктор, это слишком жестоко!
 [Character(name="char_130_doberm_ex")]
-[name="Dobermann"]  ...Perhaps you'll be able to master the theories again after some reviewing, just like how you relearned your commanding skills?
-[name="Dobermann"]  After all, you are our field commander...
-[name="Dobermann"]  To be honest, I never thought a neurology doctor could also be a master tactician...
-[name="Dobermann"]  But after seeing you, I can somehow understand it.
-[name="Dobermann"]  I mean, Rhodes Island itself is very similar to your field of study.
+[name="Доберман"]  ....Возможно, после некоторого пересмотра вы сможете снова овладеть теорией, так же как вы заново освоили навыки командования?
+[name="Доберман"]  В конце концов, Вы наш полевой командир...
+[name="Доберман"]  Честно говоря, я никогда не думала, что врач-невролог может быть еще и виртуозным тактиком...
+[name="Доберман"]  Но после встречи с Вами я кое-как смогла в это поверить.
+[name="Доберман"]  Имею в виду, сам Родос Айленд очень схож с Вашей сферой деятельности.
 [Character]
 [Blocker(a=1, r=0,g=0, b=0, fadetime=0.6, block=true)]
 [Dialog]
 [Blocker(a=0, fadetime=0.6, block=true)]
 [Character(name="char_016_medic")]
-[name="Medic"]   Hey! Damn you! Stop running! It's time for your injection!
+[name="Медик"]   Эй! Что б тебя! Хватит убегать! Пришло время для инъекции!
 [Character(name="char_016_medic",name2="char_013_riop",focus=2)]
-[name="Guard"]   Huh? Huh? I told you, I'm fine! I, I don't need treatment yet!
+[name="Страж"]   А? А? Я же сказал, я в порядке! Мне пока что лечение ни к чему!
 [Character(name="char_016_medic",name2="char_013_riop",focus=1)]
-[name="Medic"]   You need to get your regular injection to slow your symptoms!
-[name="Medic"]   Didn't you say you were feeling dizzy?
+[name="Медик"]   Тебе необходимо регулярно делать инъекции, чтобы замедлить развитие симптомов!
+[name="Медик"]   Разве ты не говорили, что у тебя кружится голова?
 [Character(name="char_016_medic",name2="char_013_riop",focus=2)]
-[name="Guard"]   That's not the same condition at all!
+[name="Страж"]   Это еще ничего не значит, я в порядке!
 [Character(name="char_016_medic",name2="char_013_riop",focus=1)]
-[name="Medic"]   What if you start having other issues when you're in battle?
-[name="Medic"]   For the sake of everyone's safety, you have to take care of yourself too!
+[name="Медик"]   А что, если во время боя у тебя проявятся и другие проблемы?
+[name="Медик"]   Ради всеобщей безопасности ты должны заботиться и о себе!
 [Character(name="char_016_medic",name2="char_013_riop",focus=2)]
-[name="Guard"]   ...
+[name="Страж"]   ...
 [Character(name="char_016_medic",name2="char_013_riop",focus=1)]
-[name="Medic"]   Stop right there! I'm giving you the shot!
+[name="Медик"]   А ну не двигайся! Сейчас сделаю тебе укол!
 [Character(name="char_016_medic",name2="char_013_riop",focus=2)]
-[name="Guard"]   Aaah! !
+[name="Страж"]   Аах!!
 [Character]
 [Blocker(a=1, r=0,g=0, b=0, fadetime=0.6, block=true)]
 [Dialog]
 [Blocker(a=0, fadetime=0.6, block=true)]
 [Character(name="char_130_doberm_ex")]
-[name="Dobermann"]  ...
-[name="Dobermann"]  ...This is what Rhodes Island does. We're looking for a cure to the infection, as well as mitigating the problems associated with the Infected.
+[name="Доберман"]  ...
+[name="Доберман"]  ...Вот чем занимается Родос Айленд. Мы ищем лекарство от инфекции, а также стараемся разбираться с проблемами, связанными с Инфецированными.
 [Character(name="char_130_doberm_ex",name2="char_002_amiya_1",focus=2)]
-[name="Amiya"]   That's right. It is not enough to only conduct research, or only try to resolve conflicts.
-[name="Amiya"]   We must address all of the problems surrounded the Infected.
-[name="Amiya"]   This is the only way for Rhodes Island to give all the Infected a chance at survival...
+[name="Амия"]   Именно так. Недостаточно только проводить исследования или просто пытаться разрешить конфликты.
+[name="Амия"]   Мы должны решить все проблемы, окружающие Инфецированных.
+[name="Амия"]   Только так Родос Айленд сможет дать всем зараженным шанс на выживание...
 [Character(name="char_130_doberm_ex")]
-[name="Dobermann"]  We understand them better than most others because we, like them, are also Infected.
-[name="Dobermann"]  No matter who is involved or what is required, Rhodes Island seeks to put an end to the spread of hatred and disease.
-[name="Dobermann"]  Dr. {@nickname}, perhaps this will be your calling as well.
-[name="Dobermann"]  ...At least, this is my wish.
-[Decision(options="What are you talking about...?;...;I need some more time to think about this.", values="1;2;3")]
+[name="Доберман"]  Мы понимаем их лучше, чем большинство других, потому что мы, как и они, тоже больны.
+[name="Доберман"]  Независимо от того, кто задействован и что требуется, Родос Айленд стремится положить конец распространению ненависти и болезни.
+[name="Доберман"]  Доктор {@nickname}, возможно, это будет и вашим призванием.
+[name="Доберман"]  ...По крайней мере, это мое желание.
+[Decision(options="О чем вы говорите...?;...;Мне нужно еще немного времени обдумать это.", values="1;2;3")]
 [Predicate(references="1;2;3")]
 [Character(name="char_130_doberm_ex")]
-[name="Dobermann"]  We will give you plenty of time to let all of this sink in.
-[name="Dobermann"]  However, the time given to us is scarce.
-[name="Dobermann"]  Gather up, everyone. We're leaving!
-[name="Dobermann"]  Anything could happen on our way to the meeting point!
+[name="Доберман"]  У вас будет достаточно времени, чтобы все это усвоить.
+[name="Доберман"]  Однако отведенного нам времени мало.
+[name="Доберман"]  Собирайтесь все. Мы уходим!
+[name="Доберман"]  По дороге к месту встречи может случиться все, что угодно!
 [Character]
 [Blocker(a=1, r=0,g=0, b=0, fadetime=0.6, block=true)]
 [Dialog]
 [Background]
 [Blocker(a=0, fadetime=0.6, block=true)]
 [delay(time=1)]
-[name="Dobermann"]  (Amiya...)
-[name="Dobermann"]  (The situation in Chernobog has become very complicated. We can't afford to create extra pressure for the rescue team. But...)
-[name="Amiya"]  (How much time... do we have left?)
-[name="Dobermann"]  (...Three hours.)
-[name="Dobermann"]  (After three hours, this entire city will be consumed by the Catastrophe.)
-[name="Dobermann"]  (After that, everything will be over then.)
+[name="Доберман"]  (Амия...)
+[name="Доберман"]  (Ситуация в Чернобоге стала приняла непростые обороты. Мы не можем позволить себе создавать дополнительную нагрузку на спасательную команду. Но...)
+[name="Амия"]  (Сколько времени... у нас осталось?)
+[name="Доберман"]  (...Три часа.)
+[name="Доберман"]  (Через три часа весь город будет поглощен Катастрофой.)
+[name="Доберман"]  (После чего все будет кончено.)
 [Character]
 [Blocker(a=1, r=0,g=0, b=0, fadetime=0.6, block=true)]
 [Background(image="bg_cher_1",x=0, y=20, xScale=1.1, yScale=1.1, fadetime=1)]
@@ -155,9 +155,9 @@
 [Delay(time=1)]
 [Character(name="char_1502_crowns#2")]
 [name="???"]  ......
-[name="???"]  We've found some unknown variables.
-[name="???"]  Notify the others, now.
-[name="???"]  We're going after them.
+[name="???"]  Мы обнаружили несколько неизвестных переменных.
+[name="???"]  Сообщите остальным, немедленно.
+[name="???"]  Мы последуем за ними.
 [Blocker(a=1, r=0,g=0, b=0, fadetime=1, block=true)]
 [Character]
 [Dialog]

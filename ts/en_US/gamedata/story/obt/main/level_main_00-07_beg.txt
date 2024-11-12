@@ -2,91 +2,91 @@
 [Background(screenadapt="coverall", image="bg_cher_5", width=1, height=1, fadetime=1)]
 [PlayMusic(intro="$mist_loop", key="$mist_loop", volume=0.8, crossfade=1.5, delay=0.5)]
 [Character(name="char_002_amiya_1")]
-[name="Amiya"]   ...It's getting darker and darker.
-[name="Amiya"]   It's as if the clouds are pressing into the skyline...
-[name="Amiya"]   The air still feels clear, but the dark clouds aren't moving. It feels like all the stress is being compressed into a single point.
-[name="Amiya"]   Even the wind has stopped...
+[name="Амия"]   ...Становится все темнее и темнее.
+[name="Амия"]   Облака словно вдавливаются в небо...
+[name="Амия"]   Воздух по-прежнему чист, но темные тучи не двигаются. Такое ощущение, словео кто-то жал весь стресс и поместил в одну точку.
+[name="Амия"]   Даже ветер утих...
 [Character(name="char_002_amiya_1",name2="char_130_doberm_ex",focus=2)]
-[name="Dobermann"]  No doubt about it. A Catastrophe is about to befall this city.
-[name="Dobermann"]  By the looks of things, Chernobog has been completely paralyzed by Reunion's attacks.
-[name="Dobermann"]  But when it comes to disabling a mobile city, the preparations must have been made several weeks in advance.
-[name="Dobermann"]  Could Reunion have taken some other action since then...?
+[name="Доберман"]  Без сомнений. Катастрофа вот-вот обрушится на этот город.
+[name="Доберман"]  Судя по всему, Чернобог был полностью парализован атаками Реюниона.
+[name="Доберман"]  Но когда речь идет о том, чтобы вывести из строя мобильный город, подготовка должна была вестись за несколько недель до этого.
+[name="Доберман"]  Мог ли Реюнион предпринять какие-то другие действия с тех пор...?
 [Character(name="char_014_riope",name2="char_013_riop",focus=1)]
-[name="Ace"]   That's a bit unrealistic.
-[name="Ace"]   Based upon what we've seen, Reunion currently doesn't show the kind of discipline required to stage a covert takeover.
+[name="Эйс"]   Это немного нереально.
+[name="Эйс"]   Судя по тому, что мы видели, Реюнион в настоящее время не демонстрирует дисциплину, необходимую для организации тайного захвата.
 [Character(name="char_014_riope",name2="char_013_riop",focus=2)]
-[name="Guard"]   Most Reunion members are still wandering the streets, taking revenge on Chernobogians.
+[name="Страж"]   Большинство членов Реюниона все еще бродят по улицам, мстя чернобожцам.
 [Character(name="char_002_amiya_1#4")]
-[name="Amiya"]   It's all just senseless fighting, killing, and arson.
+[name="Амия"]   Это просто бессмысленные драки, убийства и поджоги.
 [Character(name="char_130_doberm_ex")]
-[name="Dobermann"]  When the Catastrophe falls, even the impregnable Chernobog will be shattered...
-[name="Dobermann"]  ...and turn into Originium-filled ruins.
-[name="Dobermann"]  If fame or fortune is what they're after, Reunion is doomed to failure.
+[name="Доберман"]  Когда наступит Катастрофа, даже неприступный Чернобог будет разрушен...
+[name="Доберман"]  ...превратившись в руины, наполненные Ориджиниумом.
+[name="Доберман"]  Если их целью является слава или богатство, то Реюнион обречен на провал.
 [Character(name="char_002_amiya_1",name2="char_130_doberm_ex",focus=1)]
-[name="Amiya"]   Even with Ursus's chain of command in shambles, I still doubt that Reunion is able to face their military...
-[name="Amiya"]   Why hasn't the Ursus military staged a counterattack yet?
+[name="Амия"]   Даже если в командование Урсуса царит беспорядок, я все равно сомневаюсь, что Реюнион сможет противостоять их армии...
+[name="Амия"]   Почему военные Урсуса до сих пор не пошли на контратаку?
 [Character(name="char_002_amiya_1",name2="char_130_doberm_ex",focus=2)]
-[name="Dobermann"]  From my experience, when a riot breaks out, the military usually manages to quash it immediately.
-[name="Dobermann"]  But we did just witness the Ursus guards getting overpowered...
+[name="Доберман"]  По моему опыту, когда начинаются беспорядки, военным обычно удается их немедленно подавить.
+[name="Доберман"]  Но мы только что стали свидетелями того, как над стражей Урсуса одержали верх...
 [Character(name="char_002_amiya_1",name2="char_130_doberm_ex",focus=1)]
-[name="Amiya"]   ...
+[name="Амия"]   ...
 [Character(name="char_002_amiya_1",name2="char_130_doberm_ex",focus=2)]
-[name="Dobermann"]  That masked Reunion leader might have been a cut above the rest... but there's no way she could single-handedly destroy the entire city.
-[name="Dobermann"]  Unless...
+[name="Доберман"]  Возможно, тот лидер Реюниона в маске и была на голову выше остальных... но она никак не могла в одиночку уничтожить весь город.
+[name="Доберман"]  Если только...
 [Character(name="char_002_amiya_1")]
-[name="Amiya"]   Unless what?
+[name="Амия"]   Если только что?
 [Character(name="char_130_doberm_ex")]
-[name="Dobermann"]  I've fought in many battles before...
-[name="Dobermann"]  I've seen many people who acted in the same way as that Reunion leader.
-[name="Dobermann"]  To them, soldiers are nothing more than pawns to be tossed away as soon as they've served their purpose.
-[name="Dobermann"]  Soldiers could be used efficiently when needed, and then left to their own devices when not needed.
-[name="Dobermann"]  Because the cost of training and maintenance is too high.
+[name="Доберман"]  Я пинимала участие во многих битвах...
+[name="Доберман"]  Я видела множество людей, которые вели себя так же, как тот лидер Реюниона.
+[name="Доберман"]  Для них солдаты - не более чем пешки, которые нужно выбросить, как только они отработают свое предназначение.
+[name="Доберман"]  Солдат можно было эффективно использовать, когда они нужны, а когда нет - предоставить их самим себе.
+[name="Доберман"]  Потому что стоимость обучения и обслуживания слишком высока.
 [Character(name="char_014_riope" )]
-[name="Ace"]   So, there's no standing army?
+[name="Эйс"]   Значит, постоянной армии не существует?
 [Character(name="char_130_doberm_ex")]
-[name="Dobermann"]  Right. Most of the time, they simply have to be fed with some hatred or fear...
-[name="Dobermann"]  All that's needed to whip them into a frenzy... is a little push.
-[name="Dobermann"]  If the way that Reunion leader acted was any indication for how the organization is run...
+[name="Доберман"]  Верно. Чаще всего их нужно просто накормить ненавистью или страхом...
+[name="Доберман"]  Чтобы привести их в ярость, нужно лишь слегка подтолкнуть.
+[name="Доберман"]  Если то, как вела себя лидер Реюниона, было хоть каким-то признаком того, как управляется организация...
 [Character(name="char_013_riop")]
-[name="Guard"]   Ugh...
-[name="Guard"]   Any Infected could join Reunion simply by donning a uniform and putting on a badge?
+[name="Страж"]   Угх...
+[name="Страж"]   Любой Инфицированный может присоединиться к Реюньону, просто надев форму и нацепив значок?
 [Character(name="char_130_doberm_ex")]
-[name="Dobermann"]  Correct..
-[name="Dobermann"]  So... that explains their endless numbers.
-[name="Dobermann"]  There are too many oppressed Infected, desperately trying to cry out. No matter how tenuous the solutions that Reunion offers them might be...
-[name="Dobermann"]  As long as they see a light at the end of the tunnel, they will gladly lay their lives down to pursue it, even if it means jumping into a sea of hellfire.
+[name="Доберман"]  Верно...
+[name="Доберман"]  Так что... это объясняет их бесконечное количество.
+[name="Доберман"]  Слишком много угнетенных Зараженных, отчаянно пытающихся вырваться на волю. И неважно, насколько несущественными могут быть решения, которые предлагает им Реюнион...
+[name="Доберман"]  До тех пор, пока они видят свет в конце туннеля, они с радостью отдадут за него жизнь, даже если для этого придется прыгнуть в море адского пламени.
 [Character(name="char_016_medic")]
-[name="Medic"]   Ugh...
+[name="Медик"]   Угх...
 [Character(name="char_130_doberm_ex")]
-[name="Dobermann"]  Dr. {@nickname}.
-[name="Dobermann"]  They are not like us. Even if I don't fully trust you, I at least trust your abilities.
+[name="Доберман"]  Д-р. {@nickname}.
+[name="Доберман"]  Они не такие, как мы. Даже если я не полностью доверяю тебе, я, по крайней мере, доверяю твоим способностям.
 [Decision(options="......", values="1")]
 [Predicate(references="1")]
 [Character(name="char_130_doberm_ex")]
-[name="Dobermann"]  And completely unlike you...
-[name="Dobermann"]  That kind of leader is no commander.
-[name="Dobermann"]  Those who would trample enemies and comrades alive... or rather, 'minions.'
-[name="Dobermann"]  Perhaps not even minions. To Reunion, those thugs may have been nothing more than pawns.
-[name="Dobermann"]  This is not a leader, but a tyrant.
+[name="Доберман"]  И совершенно не похожи на тебя...
+[name="Доберман"]  Подобный лидер - не полководец.
+[name="Доберман"]  Те, кто заживо растопчет врагов и товарищей... вернее, "приспешников".
+[name="Доберман"]  Возможно, даже не приспешников. Для Реюниона эти головорезы были не более чем пешками.
+[name="Доберман"]  Это не лидер, а тиран.
 [Character(name="char_014_riope" ,name2="char_130_doberm_ex",focus=1)]
-[name="Ace"]   No matter who our enemies are, we will complete our mission.
-[name="Ace"]   Someone once taught me and my teammates--
-[name="Ace"]   'If facing a pawn, capture it; If facing a fortress, topple it; If facing the Crown, overthrow it.'
+[name="Эйс"]   No matter who our enemies are, we will complete our mission.
+[name="Эйс"]   Someone once taught me and my teammates--
+[name="Эйс"]   'If facing a pawn, capture it; If facing a fortress, topple it; If facing the Crown, overthrow it.'
 [PlayMusic(intro="$calamity_intro", key="$calamity_loop", volume=1, crossfade=1.5)]
 [Character(name="char_014_riope" ,name2="char_130_doberm_ex",focus=2)]
-[name="Dobermann"]  Ace, wait a minute.
+[name="Доберман"]  Ace, wait a minute.
 [Character(name="char_014_riope" )]
-[name="Ace"]   Dr. {@nickname}, enemy light-armored troops are stationed in front of us.
+[name="Эйс"]   Dr. {@nickname}, enemy light-armored troops are stationed in front of us.
 [Character(name="char_002_amiya_1#7")]
-[name="Amiya"]   Have we been found?
+[name="Амия"]   Have we been found?
 [Character(name="char_014_riope" )]
-[name="Ace"]   Not yet.
+[name="Эйс"]   Not yet.
 [Character(name="char_014_riope" ,name2="char_130_doberm_ex",focus=2)]
-[name="Dobermann"]  However...
+[name="Доберман"]  However...
 [Character(name="char_014_riope" ,name2="char_130_doberm_ex",focus=1)]
-[name="Ace"]   We won't be able to avoid them. The route we're on is the shortest one; if we take a detour, we'll lose time we don't have.
+[name="Эйс"]   We won't be able to avoid them. The route we're on is the shortest one; if we take a detour, we'll lose time we don't have.
 [Character(name="char_014_riope" ,name2="char_130_doberm_ex",focus=2)]
-[name="Dobermann"]  No need for further discussion then. Thugs or pawns, all that matters is that we clear them out of our way!
+[name="Доберман"]  No need for further discussion then. Thugs or pawns, all that matters is that we clear them out of our way!
 [Delay(time=0.6)]
 [Dialog]
 [Blocker(block=true)]

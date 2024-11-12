@@ -147,11 +147,11 @@
 [name="PRTS"]   Требуется идентификация личности. Выберите метод идентификации.
 [Character(name="char_002_amiya_1#2", focus=1)]
 [name="Амия"]   Ах, Доктор... Пожалуйста, скажите что-нибудь.
-[Decision(options="(Speak)", values="1")]
+[Decision(options="(Говорить)", values="1")]
 [Predicate(references="1")]
 [PlaySound(key="$d_gen_transmissionget",volume=0.4)]
 [Character(name="char_002_amiya_1#3", focus=-1)]
-[name="PRTS"]   Я не знаю, почему Вы молчите, но достаточно прикоснуться к интерфейсу.
+[name="PRTS"]   Я не знаю, почему Вы молчите, но прикосновения к интерфейсу достаточно.
 [name="PRTS"]   -Соответствие отпечатков пальцев найдено. Проверка завершена. Допуск: 8
 [Blocker(a=1, r=0,g=0, b=0, fadetime=0.6, block=true)]
 [Background]

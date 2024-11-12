@@ -52,7 +52,7 @@
 [Character(name="char_013_riop")]
 [name="Страж"]  Мы должны...
 [Character(name="char_130_doberm_ex")]
-[name="Доберман"]  Оставайтесь на местах! Мы пока нельзя выдавать свои позиции!
+[name="Доберман"]  Оставайтесь на местах! Нам пока нельзя выдавать свои позиции!
 [Character(name="char_002_amiya_1#5")]
 [name="Амия"]   Реюнион... теснит стражей Урсуса?
 [Character(name="char_002_amiya_1#5",name2="char_130_doberm_ex",focus=2)]

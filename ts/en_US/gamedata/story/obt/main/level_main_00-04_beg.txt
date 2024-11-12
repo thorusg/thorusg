@@ -4,93 +4,93 @@
 [PlayMusic(intro="$escape_intro", key="$escape_loop", volume=0.8, crossfade=1.5, delay=0.5)]
 [Delay(time=1)]
 [Character(name="char_130_doberm_ex")]
-[name="Dobermann"]  Ace!
+[name="Доберман"]  Эйс!
 [Character(fadetime=0.5)]
 [Character(name="char_014_riope" ,fadetime=0.6)]
 [delay=0.65]
 [Character(name="char_014_riope" )]
-[name="Ace"]  Looks like you all made it out alive.
+[name="Эйс"]  Похоже, вам всем удалось выбраться живыми.
 [Character(name="char_130_doberm_ex")]
-[name="Dobermann"]  This isn't the rendezvous point... Why are you here alone?
+[name="Доберман"]  Это не точка сбора... Почему ты здесь один?
 [Character]
 [Blocker(a=1, r=0,g=0, b=0, fadetime=0.3, block=true)]
 [Dialog]
 [Blocker(a=0, fadetime=0.3, block=true)]
 [Character(name="char_1002_nsabr_2")]
-[name="Reunion Member"]   They're the ones who escaped from the central area! Don't let them get away!
+[name="Член Реюниона"]   Вон! Это те, которые сбежали из центрального района! Не дайте им уйти!
 [Character]
 [Blocker(a=1, r=0,g=0, b=0, fadetime=0.3, block=true)]
 [Dialog]
 [Blocker(a=0, fadetime=0.3, block=true)]
 [Character(name="char_130_doberm_ex")]
-[name="Dobermann"]  Tsk, they just keep coming after us!
-[name="Dobermann"]  Team E2, prepare to intercept--
+[name="Доберман"]  Они всё еще у нас на хвосте!
+[name="Доберман"]  Команда E2, приготовиться к перехвату...
 [Character(name="char_014_riope")]
-[name="Ace"]   Dobermann, don't get overzealous. Retreating is our top priority!
-[name="Ace"]   Amiya, Dr. {@nickname}! Quick!
+[name="Эйс"]   Доберман, не усердствуй. Отступление - наш главный приоритет!
+[name="Эйс"]   Амия, доктор {@nickname}! Скорей!
 [Character]
 [PlaySound(key="$d_gen_soldiersrun",volume=0.5)]
 [Blocker(a=1, r=0,g=0, b=0, fadetime=0.6, block=true)]
 [Dialog]
 [Blocker(a=0, fadetime=0.6, block=true)]
 [Character(name="char_130_doberm_ex")]
-[name="Dobermann"]  It's not safe here either.
+[name="Доберман"]  Здесь тоже небезопасно.
 [Character(name="char_014_riope")]
-[name="Ace"]  That's right. We still have to press on to the next rendezvous point.
+[name="Эйс"]  Да. Нам еще нужно добраться до следующей точки сбора.
 [Character(name="char_130_doberm_ex")]
-[name="Dobermann"]  Where's your team?
+[name="Доберман"]  Где твоя команда?
 [Character]
 [Blocker(a=1, r=0,g=0, b=0, fadetime=0.3, block=true)]
 [Dialog]
 [Blocker(a=0, fadetime=0.3, block=true)]
 [Character(name="char_1002_nsabr_2")]
-[name="Reunion Member"]   Where are you rats hiding? Smoke them out!
+[name="Член Реюниона"]   Где же вы спрятались, крыски? А ну выкурите их!
 [Character(name="char_130_doberm_ex")]
-[name="Dobermann"]  Here they come again!
+[name="Доберман"]  Они снова здесь!
 [Character(name="char_014_riope")]
-[name="Ace"]  Dr. {@nickname}, please give us your orders.
-[name="Ace"]  Just like the good ol' days.
+[name="Эйс"]  Д-р. {@nickname}, берите командование!
+[name="Эйс"]  Как в старые добрые времена.
 [Decision(options="......?", values="1")]
 [Predicate(references="1")]
 [Character(name="char_002_amiya_1#4")]
-[name="Amiya"]   Um, Ace...
-[name="Amiya"]   Actually, something unexpected has happened.
-[name="Amiya"]   Doctor... is suffering from amnesia.
+[name="Амия"]   Эм, Эйс...
+[name="Амия"]   На самом деле произошло нечто неожиданное.
+[name="Амия"]   Доктор... страдает от амнезии.
 [Character(name="char_002_amiya_1#4",name2="char_014_riope",focus=2)]
-[name="Ace"]   ...I see.
+[name="Эйс"]   ...Понятно.
 [Character(name="char_002_amiya_1#4")]
-[name="Amiya"]   I'm sorry, Ace... But compared to before, a lot has changed.
+[name="Амия"]   Прости, Эйс... Но по сравнению с тем, что было раньше, многое изменилось.
 [Character(name="char_002_amiya_1#4",name2="char_014_riope",focus=2)]
-[name="Ace"]   Is that so? You don't need to apologize to me.
-[name="Ace"]   Have the Doctor's commanding capabilities suffered as a result of the amnesia?
+[name="Эйс"]   Правда? Тебе не нужно извиняться передо мной.
+[name="Эйс"]   Командирские способности Доктора пострадали из-за амнезии?
 [Character(name="char_002_amiya_1",name2="char_014_riope",focus=1)]
-[name="Amiya"]   ...As sharp as before.
-[name="Amiya"]   Doctor's decisionmaking is still absolutely reliable. I can promise you this.
+[name="Амия"]   ...Такие же остры, как и прежде.
+[name="Амия"]   Умение Доктора быстро принимать решения не пострадало. В этом я могу поклясться.
 [Character(name="char_002_amiya_1",name2="char_014_riope",focus=2)]
-[name="Ace"]   Very well then. I'll follow the Doctor's orders then.
-[name="Ace"]   What has been lost can be found again.
-[name="Ace"]   Right now, there's a more imminent problem on our hands.
+[name="Эйс"]   В таком случае отлично. Тогда я буду следовать указаниям Доктора.
+[name="Эйс"]   Что было потеряно, можно отыскать и вновь.
+[name="Эйс"]   Сейчас у нас есть более насущная проблема.
 [Character]
 [Blocker(a=1, r=0,g=0, b=0, fadetime=0.3, block=true)]
 [Dialog]
 [Blocker(a=0, fadetime=0.3, block=true)]
 [Character(name="char_1002_nsabr_2")]
-[name="Reunion Member"]   They're over here! Hurry, let's get them! !
+[name="Член Реюниона"]   Они здесь! Быстрее, хватайте их! !
 [Character(name="char_130_doberm_ex")]
-[name="Dobermann"]  Are you done chatting yet? I'm going to go crack some skulls!
+[name="Доберман"]  Вы уже закончили болтать? А то я собираюсь пойти разбить пару-тройку черепов!
 [Character(name="char_014_riope" )]
-[name="Ace"]   Dr. {@nickname}, please give us your orders.
+[name="Эйс"]   Д-р. {@nickname}, прошу, берите командование на себя!
 [Character(name="char_1002_nsabr_2")]
-[name="Reunion Member"]   Go. Release your inner beast, and let them feel your fangs!
+[name="Член Реюниона"]   Вперед. Выпустите своего внутреннего зверя и дайте им почувствовать ваши клыки!
 [Character(name="char_130_doberm_ex")]
-[name="Dobermann"]  Doctor! Ace! The enemy is right in front of us!
+[name="Доберман"]  Доктор! Эйс! Враг прямо перед нами!
 [Character(name="char_014_riope" )]
-[name="Ace"]   ——
-[Decision(options="Move out immediately!;...Got it.;Seize the opportunity to disrupt the enemy's plans.", values="1;2;3")]
+[name="Эйс"]   ——
+[Decision(options="Немедленно выдвигайтесь!;...Понял.;Воспользуйтесь возможностью сорвать планы противника.", values="1;2;3")]
 [Predicate(references="1;2;3")]
 [Character(name="char_014_riope" )]
-[name="Ace"]   Understood.
-[name="Ace"]   Team E3! Back up Dobermann!
+[name="Эйс"]   Принял.
+[name="Эйс"]   Команда E3! Прикройте Доберман!
 [PlayMusic(intro="$calamity_intro", key="$calamity_loop", volume=1, crossfade=1.5)]
 [character(fadetime=0)]
 [Dialog(fadetime=0)]
@@ -99,27 +99,27 @@
 [Blocker(a=0, r=0, g=0, b=0, fadetime=0.3, block=true)]
 [CameraShake(duration=1.5, xstrength=7, ystrength=5, vibrato=30, randomness=90, fadeout=true, block=false)]
 [Delay(time=1)]
-[name="Reunion Member"]   An ambush?!
+[name="Член Реюниона"]   Засада?!
 [Character(name="char_130_doberm_ex")]
-[name="Dobermann"]   Team E3 has been moving undercover this whole time... I see, they've been waiting for us to pincer the enemy.
+[name="Доберман"]   Команда Е3 все это время двигалась под прикрытием... Понятно, они ждали, когда мы настигнем врага.
 [Character(name="char_014_riope" )]
-[name="Ace"]   When communications are jammed, our teams should operate near the rendezvous point. That way, even if something happens to me or the scout...
-[name="Ace"]   The broader operation can still be carried out. This is my decision-making.
+[name="Эйс"]   Когда со связью плохо, наши команды должны действовать вблизи точки сбора. Таким образом, даже если что-то случится со мной или разведчиком...
+[name="Эйс"]   Основную операцию все еще можно будет продолжить. Это мое решение.
 [Character(name="char_130_doberm_ex")]
-[name="Dobermann"]  In other words, Ace, you left your team back at the rendezvous point and came here alone...
+[name="Доберман"]  Другими словами, Эйс, ты оставил свою команду на точке сбора и пришел сюда в одиночку...
 [Character(name="char_014_riope" )]
-[name="Ace"]   After all, neutralizing threats around the rendezvous point is our top objective.
-[name="Ace"]   Of course, prioritizing checking on your status is a big risk. There's no way I could imperil the entire team.
-[name="Ace"]   The whole reason teams exist is to increase tactical efficiency, not the other way around.
+[name="Эйс"]   В конце концов, нейтрализация угроз вокруг точки сбора - наша главная задача.
+[name="Эйс"]   Конечно, ставить проверку своего статуса в приоритет - большой риск. Я не могу подвергать опасности всю команду.
+[name="Эйс"]   Вся причина существования команд заключается в повышении тактической эффективности, а не наоборот.
 [Character(name="char_130_doberm_ex")]
-[name="Dobermann"]  Hah. Let's continue our discussion after we've taken care of Reunion!
+[name="Доберман"]  Хах. Давай продолжим обсуждение после того, как разберемся с Реюнионом!
 [Character(name="char_014_riope" )]
-[name="Ace"]   Amiya, you're up.
+[name="Эйс"]   Амия, твой черед.
 [Character(name="char_002_amiya_1#7")]
-[name="Amiya"]   Understood! I'll back you up with my Arts!
+[name="Амия"]   Понял! Я прикрою вас своим Искусством!
 [Character(name="char_014_riope" )]
-[name="Ace"]   Finally...
-[name="Ace"]   Dr. {@nickname}, please command Rhodes Island.
+[name="Эйс"]   Наконец-то...
+[name="Эйс"]   Д-р. {@nickname}, пожалуйста, командуйте Родос Айлендом.
 [Delay(time=0.6)]
 [Dialog]
 [Blocker(block=true)]

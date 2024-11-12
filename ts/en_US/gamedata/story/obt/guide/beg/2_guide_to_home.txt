@@ -3,31 +3,31 @@
 [Background(image="bg_indoor_1", width=1, height=1, fadetime=1)]
 [Delay(time=1)]
 [Character(name="char_013_riop")]
-[name="Guard"]   This is the last one!
+[name="Страж"]   Этот последний!
 [CameraShake(duration=1.5, xstrength=7, ystrength=5, vibrato=30, randomness=90, fadeout=true, block=false)]
 [Character(name="char_1002_nsabr_2")]
 [Blocker(a=1, r=255, g=255, b=255, afrom=0, rfrom=0, gfrom=0, bfrom=0, fadetime=0.1, block=true)]
 [PlaySound(key="$d_sp_ballista")]
 [Blocker(a=0, fadetime=1.5, block=false)]
-[name="Reunion Member"]   Ugh!
+[name="Член Реюниона"]   Угх!
 [Character(name="char_013_riop")]
 [Dialog]
 [Character(fadetime=0)]
 [Delay(time=0.5)]
 [PlayMusic(intro="$escape_intro", key="$escape_loop", volume=0.8, crossfade=1.5)]
 [Character(name="char_013_riop")]
-[name="Guard"]   Target eliminated. The enemy squad is retreating!
-[name="Guard"]   Dr. {@nickname}'s commands were perfect, just like Amiya said. How reassuring!
+[name="Страж"]   Цель уничтожена. Вражеский отряд отступает!
+[name="Страж"]   Командование Доктора было просто идеальным, как и говорила Амия. Это обнадёживает!
 [Character(name="char_002_amiya_1#10")]
-[name="Amiya"]   See, that wasn't too bad, right?
-[name="Amiya"]   Doctor, compared to everything you've been through, this is a walk in the park.
+[name="Амия"]   Видите, это было не так уж плохо, правда?
+[name="Амия"]   Доктор, в сравнение с тем, через что вам доводилось пройти, эта битва для Вас как два пальца об асфальт!
 [Character(fatetime=0.5, block=true)]
 [delay=1]
 [Blocker(a=1, r=0, g=0, b=0, fadetime=0.5, block=true)]
 [Blocker(a=0, r=0, g=0, b=0, fadetime=0.8, block=true)]
 [Character(name="char_1002_nsabr_2")]
-[name="Reunion Member"]   *cough*...Why are you here... You're not from Ursus...
-[name="Reunion Member"]   We won't... let you get in the way of our duties!
+[name="Член Реюниона"]   *кашель*... Почему вы здесь... Вы не из Урсуса...
+[name="Член Реюниона"]   Мы не позволим... помешать исполнению нашего долга!
 [dialog]
 [Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.02, block=true)]
 [PlaySound(key="$p_imp_whip_h")]
@@ -36,130 +36,130 @@
 [Character(name="char_1002_nsabr_2")]
 [PlaySound(key="$d_gen_walk_n")]
 [Character(name="char_130_doberm_ex")]
-[name="???"]   Don't even think about it!
+[name="???"]   Даже не думай об этом!
 [Character(name="char_013_riop")]
-[name="Guard"]   Instructor!
+[name="Страж"]   Инструктор!
 [Character(name="char_013_riop", name2="char_130_doberm_ex", focus=2)]
-[name="Dobermann"]   What are you spacing out for? You almost got yourself killed!
+[name="Доберман"]   Прекращай витать в облаках! Ты почти что позволил убить себя!
 [Character(name="char_013_riop", name2="char_130_doberm_ex", focus=1)]
-[name="Guard"]   I'm... I'm sorry!
+[name="Страж"]   Мне... Мне жаль!
 [Character(name="char_013_riop", name2="char_130_doberm_ex", focus=2)]
-[name="Dobermann"]   Quick! Get back into formation!
+[name="Доберман"]   Быстро! Вернулся обратно в строй!
 [Character(name="char_013_riop", name2="char_130_doberm_ex", focus=1)]
-[name="Guard"]   Yessir!
+[name="Страж"]   Слушаюсь!
 [Character(name="char_002_amiya_1#2")]
-[name="Amiya"]   Dobermann! You made it!
+[name="Амия"]   Доберман! У Вас получилось!
 [Character(name="char_002_amiya_1#2", name2="char_130_doberm_ex", focus=2)]
-[name="Dobermann"]   It's an emergency. My team was attacked by Reunion as well.
-[name="Dobermann"]   I rushed over to join you as soon as I could.
+[name="Доберман"]   Это чрезвычайная ситуация. На мою команду тоже напал Реюнион.
+[name="Доберман"]   Я рванула к вам так быстро, как только смогла.
 [Character(name="char_002_amiya_1#2", name2="char_130_doberm_ex", focus=1)]
-[name="Amiya"]   Why would Reunion attack us...?
+[name="Амия"]   Зачем Реюниону нападать на нас...?
 [Character(name="char_002_amiya_1#2", name2="char_130_doberm_ex", focus=2)]
-[name="Dobermann"]   An organization made up of the Infected... I've always thought they were a bit extreme...
-[name="Dobermann"]   ...and now they've resorted to violence, and in an Ursus city no less? That's a death wish.
-[name="Dobermann"]   The situation is only going to get more chaotic from here on out.
-[name="Dobermann"]   Amiya, we need to leave Chernobog right now.
+[name="Доберман"]   Организация, состоящая из Зараженных... Я всегда считала их методы немного чрезмерными...
+[name="Доберман"]   ...а теперь они прибегли к насилию, да еще и в городе Урсуса? Смерти своей захотели?
+[name="Доберман"]   Дальше ситуация будет становиться только непредсказуемее.
+[name="Доберман"]   Амия, нам нужно срочно покинуть Чернобог.
 [Character(name="char_002_amiya_1#1", name2="char_130_doberm_ex", focus=1)]
-[name="Amiya"]   Okay. We've already rescued the Doctor, so we can retreat according to plan.
+[name="Амия"]   Хорошо. Мы уже спасли Доктора, так что можем отступать согласно плану.
 [Delay(time=0.5)]
 [Character(name="char_130_doberm_ex")]
-[name="Dobermann"]    ...And this is Dr. {@nickname}?
+[name="Доберман"]    ...Значит это и есть Д-р. {@nickname}?
 [Character(name="char_002_amiya_1")]
-[name="Amiya"]   Yes.
+[name="Амия"]   Да.
 [Character(name="char_130_doberm_ex")]
-[name="Dobermann"]    Dr. {@nickname}, you probably don't know who I am, but you know Amiya. For your safety...
+[name="Доберман"]    Доктор {@nickname}, Вы, вероятно, не знаете меня, но вы знаете Амию. Для вашей безопасности...
 [Character(name="char_002_amiya_1", name2="char_130_doberm_ex", focus=1)]
-[name="Amiya"]   No, no...
-[name="Amiya"]   Um, Dobermann, Doctor isn't doing very well right now.
-[name="Amiya"]   To put it simply, Doctor... has amnesia.
+[name="Амия"]   Нет-нет...
+[name="Амия"]   Доберман, доктор сейчас не в лучшем состоянии.
+[name="Амия"]   Проще говоря, у Доктора... амнезия.
 [Character(name="char_002_amiya_1", name2="char_130_doberm_ex", focus=2)]
-[name="Dobermann"]    Amnesia?
-[name="Dobermann"]    ...What are you going to do now? Weren't you planning to transfer leadership to—
+[name="Доберман"]    Амнезия?
+[name="Доберман"]    ...И что ты в таком случае будешь делать? Разве ты не собиралась передать руководство...
 [Character(name="char_002_amiya_1", name2="char_130_doberm_ex", focus=1)]
-[name="Amiya"]   Doctor still has the capacity to command.
-[name="Amiya"]   ...At least, I've confirmed that from the previous battle.
+[name="Амия"]   Доктор все еще способен командовать.
+[name="Амия"]   Я убедилась в этом во время предыдущей битвы.
 [Character(name="char_002_amiya_1", name2="char_130_doberm_ex", focus=2)]
-[name="Dobermann"]   ...
-[name="Dobermann"]   I can't bring myself to trust a stranger so easily.
-[name="Dobermann"]   But I trust you, Amiya.
+[name="Доберман"]   ...
+[name="Доберман"]   Я не могу заставить себя так легко довериться незнакомцу.
+[name="Доберман"]   Но я доверяю тебе, Амия.
 [Character(name="char_002_amiya_1", name2="char_130_doberm_ex", focus=1)]
-[name="Amiya"]   ...I understand.
+[name="Амия"]   ...Я понимаю.
 [Character(name="char_130_doberm_ex")]
-[name="Dobermann"]   Dr. {@nickname}, I am Dobermann, captain of Op Team E1.
-[name="Dobermann"]   We are going to escort you from Chernobog, which is the Ursus city we're currently in, back to Rhodes Island.
+[name="Доберман"]   Доктор {@nickname}, я Доберман, капитан Оперативной Группы E1.
+[name="Доберман"]   Мы собираемся сопроводить Вас из Чернобога, города Урсуса, в котором мы сейчас находимся, обратно на Родос Айленд.
 [Blocker(a=1, r=0, g=0, b=0, fadetime=0.5, block=true)]
 [image(image="avg_map_1")]
 [ImageTween(image="avg_map_1", tiled=true, xScaleTo=1.3, yScaleTo=1.3, xTo=-200, duration=75, block=false)]
 [Blocker(a=0, r=0, g=0, b=0, fadetime=0.8, block=true)]
-[name="Dobermann"]   We're in an abandoned facility in Chernobog and should now head west.
+[name="Доберман"]   В данный момент мы находимся на заброшенном объекте в Чернобоге и должны выдвигаться на запад.
 [Character(name="char_002_amiya_1", name2="char_130_doberm_ex", focus=1)]
 [ImageTween(image="avg_map_1", tiled=true, xScaleTo=1.8, yScaleTo=1.8, xTo=-200, duration=75, block=false)]
-[name="Amiya"]   But... since we're cut off from Dr. Kal'tsit, Dobermann and I have lead our separate teams westward to a rendezvous point before confirming our signal to retreat.
-[name="Amiya"]   That is, assuming everything goes according to plan.
-[name="Dobermann"]    It'd be nice if things went that smoothly.
-[name="Dobermann"]    Today is our last opportunity to get you out of here, Dr. {@nickname}.
-[name="Dobermann"]    But... I have a bad feeling about this.
+[name="Амия"]   Но... поскольку мы отрезаны от доктора Каль'цит, мы с Доберман поведём нашигруппы на запад, к точке встречи, прежде чем подтвердить сигнал к отступлению.
+[name="Амия"]   Это при условии, что все пойдет по плану.
+[name="Доберман"]    Было бы здорово, если бы все шло так гладко.
+[name="Доберман"]    Сегодня у нас последняя возможность вытащить вас отсюда, Д-р. {@nickname}.
+[name="Доберман"]    Но... У меня плохое предчувствие.
 [character]
 [Dialog]
 [Blocker(a=1, r=0, g=0, b=0, fadetime=0.5, block=true)]
 [image]
 [Blocker(a=0, r=0, g=0, b=0, fadetime=0.8, block=true)]
 [Character(name="char_016_medic", name2="char_002_amiya_1", focus=1)]
-[name="Medic"]   A-Amiya!
+[name="Медик"]   А-Амия!
 [Character(name="char_016_medic", name2="char_002_amiya_1#6", focus=2)]
-[name="Amiya"]   What's the matter?
+[name="Амия"]   В чем дело?
 [Character(name="char_016_medic", name2="char_002_amiya_1#6", focus=1)]
-[name="Medic"]   It's... it's a call from Rhodes Island!
+[name="Медик"]   Это... это вызов с Родос Айленда!
 [Character(name="char_002_amiya_1#6", focus=-1)]
-[name="Amiya"]   Are our communications back on? Is it Dr. Kal'tsit...?
+[name="Амия"]   Связь вернулась? Это доктор Каль'цит...?
 [Blocker(a=1, r=0, g=0, b=0, fadetime=0.5, block=true)]
 [Character(name="char_002_amiya_1#6", focus=-1)]
-[name="???"]   Sorry, but not quite.
+[name="???"]   Прошу прощения, но не совсем.
 [image(image="bg_2_call")]
 [PlaySound(key="$d_gen_transmissionget",volume=0.4)]
 [Blocker(a=0, r=0, g=0, b=0, fadetime=0.8, block=true)]
 [Character(name="char_002_amiya_1#1", focus=1)]
-[name="Amiya"]   PRTS...?
+[name="Амия"]   PRTS...?
 [Character(name="char_002_amiya_1#1", focus=-1)]
-[name="PRTS"]   The Emergency Neural Connection Request System was activated.
-[name="PRTS"]   Interference has also been detected from Rhodes Island's end, and only partial Neural Network connection is possible.
-[name="PRTS"]   Currently unable to establish communication with Kal'tsit, who has yet to return to Rhodes Island.
-[name="PRTS"]   Your safety is confirmed; therefore, my mission is now complete.
+[name="PRTS"]   Система срочного запроса нейро-связи была активирована.
+[name="PRTS"]   Помехи были также обнаружены и со стороны Родос Айленда, поэтому возможно лишь частичное подключение к нейросети.
+[name="PRTS"]   В настоящее время не удается установить связь с Каль'цит, что всё еще не прибыла на Родос Айленд.
+[name="PRTS"]   Ваша безопасность подтверждена, поэтому моя миссия завершена.
 [Character(name="char_130_doberm_ex")]
-[name="Dobermann"]   This piece of...
-[name="Dobermann"]   Do we really have time for this...?
+[name="Доберман"]   Этот кусок...
+[name="Доберман"]   У нас действительно есть время на это...?
 [Character(name="char_002_amiya_1#1", focus=-1)]
-[name="PRTS"]   If you do not need to connect to Rhodes Island, communication will be severed momentarily.
-[name="PRTS"]   I am sincerely sorry for having interrupted your party.
+[name="PRTS"]   Если вам не требуется подключение к Родос Айленд, связь будет незамедлительно прервана.
+[name="PRTS"]   Я искренне сожалею о том, что помешала вашей вечеринке.
 [Character(name="char_002_amiya_1#5", focus=1)]
-[name="Amiya"]   Wait, wait! Don't hang up, I need your help still.
-[name="Amiya"]   Dobermann, Doctor still needs some assistance.
+[name="Амия"]   Погоди-погоди, не отключайся! Мне всё еще нужна твоя помощь!
+[name="Амия"]   Доберман, Доктор всё еще нуждается в помощи.
 [Character(name="char_130_doberm_ex")]
-[name="Dobermann"]   I know, but make it quick.
+[name="Доберман"]   Я знаю, но поторопись.
 [Character(name="char_002_amiya_1#5", focus=1)]
-[name="Amiya"]   Doctor, PRTS is also one of our... partners. It will show you what to do next.
-[name="Amiya"]   Time is of the essence, so I'm going to reconnect you to the Rhodes Island backup system.
-[name="Amiya"]   This way, we'll have an edge in battle. 
-[name="Amiya"]   It's different from giving verbal commands and might be a bit hard to get used to, but once you learn how to use it, the entire operation will be much smoother.
-[name="Amiya"]   ...Please trust me. Just like how you used to.
-[name="Amiya"]   PRTS... Let's start.
+[name="Амия"]   Доктор, PRTS также является одним из наших... партнеров. Он покажет вам, что делать дальше.
+[name="Амия"]   Время не терпит, поэтому я переподключу Вас к резервной системе Родос Айленд.
+[name="Амия"]   Так мы получим преимущество в бою.
+[name="Амия"]   Это отличается от словесного командования и привыкнуть к нему может быть немного сложно, но как только Вы научитесь им пользоваться, вся работа станет гораздо более плавной.
+[name="Амия"]   ...Пожалуйста, доверьтесь мне. Как и прежде.
+[name="Амия"]   PRTS... Давай начнем.
 [Character(name="char_002_amiya_1#1", focus=-1)]
-[name="PRTS"]   Identity verification required. Select verification method.
+[name="PRTS"]   Требуется идентификация личности. Выберите метод идентификации.
 [Character(name="char_002_amiya_1#2", focus=1)]
-[name="Amiya"]   Ah, Doctor... Please say something.
+[name="Амия"]   Ах, Доктор... Пожалуйста, скажите что-нибудь.
 [Decision(options="(Speak)", values="1")]
 [Predicate(references="1")]
 [PlaySound(key="$d_gen_transmissionget",volume=0.4)]
 [Character(name="char_002_amiya_1#3", focus=-1)]
-[name="PRTS"]   I am not sure why you did not speak, but the action of touching the interface is sufficient—
-[name="PRTS"]   —Fingerprint match found. Verification complete. Security clearance: 8
+[name="PRTS"]   Я не знаю, почему Вы молчите, но достаточно прикоснуться к интерфейсу.
+[name="PRTS"]   -Соответствие отпечатков пальцев найдено. Проверка завершена. Допуск: 8
 [Blocker(a=1, r=0,g=0, b=0, fadetime=0.6, block=true)]
 [Background]
 [Character(fadetime=0)]
 [Image(image="avg_ep00",x=0, y=0, xScale=1, yScale=1, fadetime=0)]
 [Blocker(a=0, fadetime=0.6, block=false)]
 [ImageTween(xFrom=0, yFrom=0, xTo=0, yTo=-20, xScaleFrom=1, yScaleFrom=1, xScaleTo=1.1, yScaleTo=1.1, duration=15, block=false)]
-[name="PRTS"]   Welcome home, Dr. {@nickname}.
+[name="PRTS"]   Добро пожаловать домой, доктор {@nickname}.
 [Delay(time=0.6)]
 [Background]
 [character]

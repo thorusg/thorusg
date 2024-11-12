@@ -6,92 +6,92 @@
 [Background(image="bg_cher_1",fadetime=1,screenadapt="coverall")]
 [Blocker(a=0, fadetime=0.6, block=false)]
 [Character(name="char_130_doberm_ex")]
-[name="Dobermann"]  ...This is way beyond my expectations...
-[name="Dobermann"]  Explosions, rioting, fires, fighting in the streets...
-[name="Dobermann"]  Has Chernobog completely fallen into chaos?
+[name="Доберман"]  ...Это превзошло все мои ожидания...
+[name="Доберман"]  Взрывы, беспорядки, пожары, бои на улицах...
+[name="Доберман"]  Неужели Чернобог полностью погрузился в хаос?
 [Blocker(a=1, r=0,g=0, b=0, fadetime=0.6, block=true)]
 [Character(fadetime=0)]
 [Image(image="bg_0_tv",x=0, y=0, xScale=1, yScale=1, fadetime=0)]
 [Blocker(a=0, fadetime=0.6, block=false)]
 [ImageTween(xFrom=0, yFrom=0, xTo=0, yTo=-20, xScaleFrom=1, yScaleFrom=1, xScaleTo=1.1, yScaleTo=1.1, duration=15, block=false)]
-[name="TV Host"]   Thanks to the swift response and teamwork of the Chernobog Military Police...
-[name="TV Host"]   ...the situation is largely under control. The incidents in most areas have already been contained.
-[name="TV Host"]   Currently, the Military Police has already surrounded the thugs who had taken Vaschuk Prospect.
-[name="TV Host"]   As you can see, this senseless violence is about to be put to an end.
-[name="TV Host"]   Please do not panic. Stay indoors, and await another victory for Chernobog...
-[name="TV Host"]   May the glory of Ursus bless the Emperor and his people!
+[name="Телеведущий"]   Благодаря оперативному реагированию и командной работе Чернобогской Военной Полиции...
+[name="Телеведущий"]   ...ситуация в основном находится под контролем. Инциденты в большинстве районов уже локализованы.
+[name="Телеведущий"]   В настоящее время военная полиция уже окружила бандитов, захвативших проспект Ващука.
+[name="Телеведущий"]   Как видите, этому бессмысленному насилию скоро будет положен конец.
+[name="Телеведущий"]   Пожалуйста, не паникуйте. Оставайтесь дома и ожидайте очередной победы Чернобога...
+[name="Телеведущий"]   Да благословит слава Урсуса Императора и его народ!
 [dialog]
 [Blocker(a=1, r=0,g=0, b=0, fadetime=0.6, block=true)]
 [Image(fadetime=0)]
 [Background(image="bg_cher_1",fadetime=1,screenadapt="coverall")]
 [Blocker(a=0, fadetime=0.6, block=false)]
 [Character(name="char_1002_nsabr_2")]
-[name="Reunion Member"]   ...
+[name="Член Реюниона"]   ...
 [Character]
-[name="Ursus Guard"]   Curse them... where the hell did they get those kinds of equipment and weapons?!
-[name="Ursus Captain"]   Don't get scared! Cowards in armor are still just cowards! They're just a bunch of untrained thugs!
-[name="Ursus Guard"]   But... there are so many of them...! !
-[name="Ursus Captain"]   We've already taken out forces three times the size of ours! Just do it again, and the battle will be over!
+[name="Страж Урсуса"]   Будь они прокляты... где, черт возьми, они достали такое снаряжение и оружие?!
+[name="Капитан Урсуса"]   Не бойтесь! Трусы в доспехах - это все равно трусы! Они просто кучка необученных головорезов!
+[name="Страж Урсуса"]   Но... их чересчур много...! !
+[name="Капитан Урсуса"]   Мы уже уничтожили войска, в три раза превосходящие наши по численности! Просто сделайте это еще раз, и битва будет окончена!
 [Character(name="char_1002_nsabr_2")]
-[name="Reunion Member"]   Enough with the nonsense, Chernobog scum!
+[name="Член Реюниона"]   Хватит нести чушь, чернобогская мразь!
 [Character]
-[name="Ursus Captain"]   You filth think you can stand against us? !
-[name="Ursus Captain"]   Exile and hard labor are too good for your kind. We should have executed the lot of you the moment you were captured!
+[name="Капитан Урсуса"]   Вы, мерзавцы, думаете, что сможете противостоять нам? !
+[name="Капитан Урсуса"]   Изгнание и катрга слишком легкая участь для таких, как вы. Мы должны были казнить вас всех, как только схватили!
 [Character(name="char_1002_nsabr_2")]
-[name="Reunion Member"]   How dare you...! !
+[name="Член Реюниона"]   Как ты смеешь...! !
 [Character]
-[name="Ursus Guard"]   Ugh...! They're rushing us again. Our front lines won't hold out much longer!
-[name="Ursus Captain"]   For the Emperor! Stand your ground! !
-[name="Ursus Guard"]   I... I can't do it anymore...!
-[name="Ursus Captain"]   Anyone who turns tail will be executed on the spot!
-[name="Ursus Guard"]   *cough* *cough*...
+[name="Страж Урсуса"]   Уф...! Они снова пытаются прорваться. Наша оборона долго не протянет!
+[name="Капитан Урсуса"]   За Императора! Не сдавать позиции! !
+[name="Страж Урсуса"]   Я... Я больше не могу...!
+[name="Капитан Урсуса"]   Каждый, кто попытается сбежать, поджав хвост, будет казнен на месте!
+[name="Страж Урсуса"]   *кашель* *кашель*...
 [Character]
 [Blocker(a=1, r=0,g=0, b=0, fadetime=0.6, block=true)]
 [Dialog]
 [Blocker(a=0, fadetime=0.6, block=true)]
 [Character(name="char_013_riop")]
-[name="Guard"]  We have to...
+[name="Страж"]  Мы должны...
 [Character(name="char_130_doberm_ex")]
-[name="Dobermann"]  Stay put! We must not expose ourselves yet!
+[name="Доберман"]  Оставайтесь на местах! Мы пока нельзя выдавать свои позиции!
 [Character(name="char_002_amiya_1#5")]
-[name="Amiya"]   The Ursus guards... are getting overwhelmed by Reunion?
+[name="Амия"]   Реюнион... теснит стражей Урсуса?
 [Character(name="char_002_amiya_1#5",name2="char_130_doberm_ex",focus=2)]
-[name="Dobermann"]  Hmph... What they're broadcasting on television can't be farther from the truth.
-[name="Dobermann"]  Even in this situation, the Chernobog authorities are still playing their games.
-[name="Dobermann"]  But things are getting worse for us too. We can't expect to sneak out anymore.
+[name="Доберман"]  Хмф... То, что они показывают по телевизору, не особо соответствует действительности.
+[name="Доберман"]  Даже в подобной ситуации власти Чернобога продолжают играть в свои игры.
+[name="Доберман"]  Но и для нас ситуация становится все хуже. Мы больше не можем рассчитывать на то, что нам удастся улизнуть.
 [Character(name="char_002_amiya_1",name2="char_130_doberm_ex",focus=1)]
-[name="Amiya"]   Terrible road conditions and enemy blockades... We won't be able to use our own vehicles anymore...
+[name="Амия"]   Ужасные дорожные условия и вражеские блокады... Мы больше не можем расчитывать на наш транспорт...
 [Character(name="char_002_amiya_1",name2="char_130_doberm_ex",focus=2)]
-[name="Dobermann"]  That's right. The rescue team must be large enough to clear out any Reunion members that block our way.
-[name="Dobermann"]  Splitting up any further would be suicide.
+[name="Доберман"]  Именно. Спасательная команда должна быть достаточно большой, чтобы убрать всех членов Реюниона, которые преградят нам путь.
+[name="Доберман"]  Разделяться было бы самоубийством.
 [Character(name="char_013_riop")]
-[name="Guard"]  These Ursus guards...
-[name="Guard"]  They might look powerful because they're well-equipped, but Reunion...
-[name="Guard"]  Reunion clearly has an overwhelming advantage in numbers and morale!
+[name="Страж"]  Эти стражи Урсуса...
+[name="Страж"]  Они могут выглядеть сильными из-за своей экипировки, но Реюнион...
+[name="Страж"]  Реюнион явно имеет подавляющее преимущество в численности и боевом духе!
 [Character(name="char_130_doberm_ex")]
-[name="Dobermann"]  This is nothing like when we first investigated Chernobog...
-[name="Dobermann"]  When we sneaked in, the quantity, distribution, and status of Chernobog's guards and military were in a very bizarre state.
-[name="Dobermann"]  Back then, we just couldn't figure out why.
+[name="Доберман"]  Происходящее совсем не похоже на нашу первую вылазку в Чернобог.
+[name="Доберман"]  Когда мы пробрались внутрь, количество, расположение и состояние охраны и военных Чернобога были в крайне странном состоянии.
+[name="Доберман"]  Тогда мы просто не могли понять, почему.
 [Character(name="char_013_riop")]
-[name="Guard"]  Had Reunion already destroyed most of Chernobog's defenses at that point?
+[name="Страж"]  Неужели Реюнион к тому моменту уже уничтожило большую часть обороны Чернобога?
 [Character(name="char_130_doberm_ex")]
-[name="Dobermann"]  Though I don't have any proof, if Reunion has grown powerful enough to launch such a large-scale operation...
-[name="Dobermann"]  ... All I can say is that I feel lucky those guards are being surrounded, instead of us.
-[name="Dobermann"]  Of course, we must be vigilant of our surroundings. By the time we end up in a crisis, it'll already be too late--
+[name="Доберман"]  Хоть у меня нет никаких весомых доказательств, ео если Реюнион стал настолько сильным, чтобы начать такую масштабную операцию...
+[name="Доберман"]  ... Могу только сказать, что нам повезло не оказаться на месте этих стражей, окруженными.
+[name="Доберман"]  Конечно, мы должны быть сохранять бдительность к своему окружению. Когда мы окажемся в кризисной ситуации, будет уже слишком поздно...
 [Character(name="char_002_amiya_1#7")]
-[name="Amiya"]   ... Doctor, hurry and gather your teams.
-[name="Amiya"]   Our scouts have discovered Reunion forces. They're about to come in contact with our rescue team!
+[name="Амия"]   ... Доктор, скорее собирайте команду.
+[name="Амия"]   Наши разведчики обнаружили силы Реюниона. Они вот-вот вступят в контакт с нашей спасательной командой!
 [Character(name="char_130_doberm_ex")]
-[name="Dobermann"]  For now, being cautious is the only advantage we can get.
+[name="Доберман"]  Пока что осторожность - единственное преимущество, на которое мы можем рассчитывать.
 [Character]
 [Blocker(a=1, r=0,g=0, b=0, fadetime=0.6, block=true)]
 [Dialog]
 [Blocker(a=0, fadetime=0.6, block=true)]
 [Character(name="char_1002_nsabr_2")]
-[name="Reunion Member"]   Hmm?
-[name="Reunion Member"]   Why is there an armed force here? !
+[name="Член Реюниона"]   Хмм?
+[name="Член Реюниона"]   Откуда здесь вооруженные силы? !
 [Character(name="char_130_doberm_ex")]
-[name="Dobermann"]  All teams, prepare for combat! Don't give them any chance to retaliate!
+[name="Доберман"]  Всем командам приготовиться к бою! Не дайте им ни единого шанса на ответный удар!
 [Delay(time=0.3)]
 [Dialog]
 [Blocker(block=true)]

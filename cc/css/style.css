@@ -349,7 +349,7 @@ body,
 #filters,
 #topNav {
   background-color: var(--main-background-color);
-  background: url("../images/B_RI.png"), #333;
+  background: url("../images/noise.svg"), #333;
 }
 body {
   margin: 0px;

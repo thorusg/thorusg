@@ -36,8 +36,8 @@
 [Character(name="char_002_amiya_1")]
 [name="Амия"]   Если только что?
 [Character(name="char_130_doberm_ex")]
-[name="Доберман"]  Я пинимала участие во многих битвах...
-[name="Доберман"]  Я видела множество людей, которые вели себя так же, как тот лидер Реюниона.
+[name="Доберман"]  Я принимала участие во многих битвах...
+[name="Доберман"]  Я видела множество людей, которые вели себя точно так же, как тот лидер Реюниона.
 [name="Доберман"]  Для них солдаты - не более чем пешки, которые нужно выбросить, как только они отработают свое предназначение.
 [name="Доберман"]  Солдат можно было эффективно использовать, когда они нужны, а когда нет - предоставить их самим себе.
 [name="Доберман"]  Потому что стоимость обучения и обслуживания слишком высока.
@@ -69,24 +69,24 @@
 [name="Доберман"]  Возможно, даже не приспешников. Для Реюниона эти головорезы были не более чем пешками.
 [name="Доберман"]  Это не лидер, а тиран.
 [Character(name="char_014_riope" ,name2="char_130_doberm_ex",focus=1)]
-[name="Эйс"]   No matter who our enemies are, we will complete our mission.
-[name="Эйс"]   Someone once taught me and my teammates--
-[name="Эйс"]   'If facing a pawn, capture it; If facing a fortress, topple it; If facing the Crown, overthrow it.'
+[name="Эйс"]   Неважно, кто наш враг, мы выполним свою миссию.
+[name="Эйс"]   Однажды кто-то научил меня и моих товарищей по команде...
+[name="Эйс"]   'Если сталкиваешься с пешкой, захвати её; если с крепостью — разрушь её; если с короной — свергни её.'
 [PlayMusic(intro="$calamity_intro", key="$calamity_loop", volume=1, crossfade=1.5)]
 [Character(name="char_014_riope" ,name2="char_130_doberm_ex",focus=2)]
-[name="Доберман"]  Ace, wait a minute.
+[name="Доберман"]  Эйс, погоди минутку.
 [Character(name="char_014_riope" )]
-[name="Эйс"]   Dr. {@nickname}, enemy light-armored troops are stationed in front of us.
+[name="Эйс"]   Д-р. {@nickname}, перед нами расположились вражеские легкобронированные войска.
 [Character(name="char_002_amiya_1#7")]
-[name="Амия"]   Have we been found?
+[name="Амия"]   Нас обнаружили?
 [Character(name="char_014_riope" )]
-[name="Эйс"]   Not yet.
+[name="Эйс"]   Пока нет.
 [Character(name="char_014_riope" ,name2="char_130_doberm_ex",focus=2)]
-[name="Доберман"]  However...
+[name="Доберман"]  Однако...
 [Character(name="char_014_riope" ,name2="char_130_doberm_ex",focus=1)]
-[name="Эйс"]   We won't be able to avoid them. The route we're on is the shortest one; if we take a detour, we'll lose time we don't have.
+[name="Эйс"]   Мы не сможем их избежать. Наш маршрут - самый короткий; если мы свернем с него, то потеряем время, которого у нас нет.
 [Character(name="char_014_riope" ,name2="char_130_doberm_ex",focus=2)]
-[name="Доберман"]  No need for further discussion then. Thugs or pawns, all that matters is that we clear them out of our way!
+[name="Доберман"]  Тогда нет необходимости в дальнейших обсуждениях. Бандиты или пешки, главное - убрать их с нашего пути!
 [Delay(time=0.6)]
 [Dialog]
 [Blocker(block=true)]
